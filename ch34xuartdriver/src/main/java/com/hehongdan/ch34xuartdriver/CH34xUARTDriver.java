@@ -877,6 +877,16 @@ public class CH34xUARTDriver {
 
 
     //以下为反混淆作者增加方法======================================================================
+
+    /**
+     * 获取USB发送与接收控制器。
+     *
+     * @return 控制器。
+     */
+    public UsbDeviceConnection getUsbDeviceConnection() {
+        return usbDeviceConnection;
+    }
+
     /**
      * 获取USB所有请求数据包。
      * 

@@ -26,4 +26,7 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    //WCH沁恒-CH340/CH341的USB转串口安卓免驱应用库
+    implementation project(':ch34xuartdriver')
 }
