@@ -1,0 +1,2 @@
+include ':app', ':ch34xuartdriver'
+rootProject.name='CH34xUART'
